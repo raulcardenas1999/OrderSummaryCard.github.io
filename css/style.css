@@ -23,3 +23,126 @@ html{
     font-size: 62.5%;
     font-family: 'Red Hat Display';
 }
+/*main*/
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--pale-blue);
+    padding: 70px 20px;
+}
+.product-card--container{
+    background-color: var(--very-pale-blue);
+    width: 100%;
+    height: 526.4px;
+    max-width: 355.1px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px -12px black;
+    overflow: hidden;
+}
+.product-detail--image{
+    width: 100%;
+    height: 180px;
+    background-image: url('../assets/illustration-hero.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--text{
+    width: 100%;
+    height: 170px;
+    padding: 30px 10px;
+    text-align: center;
+}
+.product-detail--text h1{
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 10px;
+    color: var(--dark-blue);
+}
+.product-detail--text p{
+    padding: 0px 30px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: var(--desaturated-blue);
+}
+.product-detail--price{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.product-detail--price div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100%/3);
+}
+.product-detail--price span{
+    position: absolute;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    background-image: url('../assets/icon-music.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail--price .price--exception{
+    display: block;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.price--exception h3{
+    color: var(--dark-blue);
+}
+.price--exception p{
+    color: var(--desaturated-blue);
+}
+.product-detail--price div a{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--bright-blue);
+    margin-right: 50px;
+}
+.product-detail--price div a:hover{
+    color: var(--desaturated-blue);
+    text-decoration: none;
+}
+.product-detail--ca{
+    width: 100%;
+    height: 96.4px;
+    padding: 6px 25px;
+}
+.product-detail--ca button{
+    display: block;
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    border: 0px;
+    border-radius: 10px;
+}
+.card--ca1{
+    position: relative;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--very-pale-blue);
+    line-height: 1rem;
+    box-shadow: 0px 10px 10px -9px var(--bright-blue);
+    background-color: var(--bright-blue);
+}
+.card--ca1:hover{
+    background-color: var(--desaturated-blue);
+}
+.card--ca2{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--desaturated-blue);
+    line-height: 2rem;
+    background-color: var(--very-pale-blue);
+}
+.card--ca2:hover{
+    color: var(--dark-blue);
+}
