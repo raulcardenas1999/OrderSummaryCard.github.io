@@ -12,28 +12,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <section class="product-card--container">
-            <div class="product-detail--image"></div>
-            <div class="product-detail--text">
-                <h1>Order Summary</h1>
-                <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+    <main class="card">
+        <section class="card__container">
+            <div class="card__img">
+                <img src="./assets/illustration-hero.svg" alt="Mujer bailando con audifonos" class="card__header-img">
             </div>
-            <div class="product-detail--price">
-                <div>
-                    <span></span>
+            <div class="card__content">
+                <h1 class="card__title">Order Summary</h1>
+                <p class="card__description">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+                <div class="card_price-box">
+                    <div class="card__container-repet">
+                        <img src="./assets/icon-music.svg" alt="Icono musica" class="card__icon">
+                    </div>
+                    <h2 class="card__price-info card__container-repet">Annual Plan<br><p>$59.99/year</p></h2>
+                    <a href="#" class="card__link card__container-repet">Change</a>
                 </div>
-                <div class="price--exception">
-                    <h3>Annual Plan</h3>
-                    <p>$59.99/year</p>
-                </div>
-                <div>
-                    <p><a href="">Change</a></p>
-                </div>
-            </div>
-            <div class="product-detail--ca">
-                <button class="card--ca1">Proceed to Payment</button>
-                <button class="card--ca2">Cancel Order</button>
+                <button class="boton">Proceed to Payment</button>
+                <button class="boton boton--secondary">Cancel Order</button>
             </div>
         </section>
     </main>
